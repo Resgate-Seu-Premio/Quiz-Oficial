@@ -11,6 +11,45 @@
   <title>Avaliação Cacau Show</title>
 </head>
 <body>
+
+
+
+
+<script type="text/javascript">
+  
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Seleciona todos os links na página
+    var links = document.querySelectorAll('a');
+
+    // Itera sobre cada link para adicionar o evento de clique
+    links.forEach(function(link) {
+        link.addEventListener('click', function(event) {
+            // Obtém o href do link
+            var href = link.getAttribute('href');
+
+            // Verifica se o link pertence ao domínio bloqueado
+            if (href && href.includes('avaliarcacaushow.com')) {
+                // Impede o comportamento padrão do link (não permite a navegação)
+                event.preventDefault();
+                console.log('Link bloqueado:', href);
+                // Aqui você pode adicionar uma mensagem de alerta ou qualquer ação que desejar
+            }
+        });
+    });
+});
+
+
+
+</script>
+
+
+
+
+
+
+
   <header>
     <i class="fa-solid fa-bars" style="color: white"></i>
     <!-- <img src="assets/images/google_logo.svg" alt=""> -->
