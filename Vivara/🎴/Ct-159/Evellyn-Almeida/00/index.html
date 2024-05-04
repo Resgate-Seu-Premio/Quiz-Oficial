@@ -1,0 +1,305 @@
+<!DOCTYPE html><html lang="pt-br"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/NwfNah5uWTA5.css">
+    <link rel="stylesheet" href="css/9LM7SJV66KIF.css">
+    <link rel="stylesheet" href="css/z1WBfA9b2ouJ.css">
+    <script src="js/kCXQ5DBFpz8E.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/l7N6ggB4eI93.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/l7N6ggB4eI93.png">
+    <script src="js/DhZV2ka6pSMA.js"></script>
+    <title>Avaliação Vivara</title>
+  </head>
+  <body>
+    <header>
+      <i class="fa-solid fa-bars" style="color: white"></i>
+      <!-- <img src="images/hCKiUINkyBs9.svg" alt=""> -->
+      <img src="images/hCKiUINkyBs9.svg" alt="">
+      <span id="saldo" style="margin-left: auto"></span>
+    </header>
+    <main>
+      <div class="card pergunta01" id="pergunta01">
+        <div class="card__logo">
+            <img src="images/ew6h9lZu5yq5.jpeg">
+        </div>
+        <div class="card__satisfacao">
+          <h2>De 0 a 5, como você avaliaria sua familiaridade com a Vivara?</h2>
+          <div class="card__gradeContainer">
+            <div class="card__grade" id="card__grade1" onclick="toggleCard(this)">
+              <i class="fa-regular fa-star" id="star1"></i>
+            </div>
+            <div class="card__grade" id="card__grade2" onclick="toggleCard(this)">
+              <i class="fa-regular fa-star" id="star2"></i>
+            </div>
+            <div class="card__grade" id="card__grade3" onclick="toggleCard(this)">
+              <i class="fa-regular fa-star" id="star3"></i>
+            </div>
+            <div class="card__grade" id="card__grade4" onclick="toggleCard(this)">
+              <i class="fa-regular fa-star" id="star4"></i>
+            </div>
+            <div class="card__grade" id="card__grade5" onclick="toggleCard(this)">
+              <i class="fa-regular fa-star" id="star5"></i>
+            </div>
+          </div>
+          <div class="card__gradeDescricao">
+            <p>Muito ruim</p>
+            <p>Muito bom</p>
+          </div>
+        </div>
+        <div class="card__resposta">
+          <h2>
+            Você já possui alguma joia Vivara?
+          </h2>
+          <div class="resposta__gradeContainer">
+            <div class="resposta__grade resposta1" onclick="toggleResponse(this, 'resposta1')">
+              <p onclick="scrollToDown()">Colar</p>
+            </div>
+            <div class="resposta__grade resposta1" onclick="toggleResponse(this, 'resposta1')">
+              <p onclick="scrollToDown()">Brincos</p>
+            </div>
+
+            <div class="resposta__grade resposta1" onclick="toggleResponse(this, 'resposta1')">
+            <p onclick="scrollToDown()">Pulseiras</p>
+          </div>
+
+          <div class="resposta__grade resposta1" onclick="toggleResponse(this, 'resposta1')">
+          <p onclick="scrollToDown()">Relógio</p>
+        </div>
+          </div>
+        </div>
+  
+        <button class="card__enviarResposta" id="enviarResposta" onclick="pergunta01()" disabled="">
+          Enviar avaliação
+        </button>
+      </div>
+      <div class="card pergunta02" id="pergunta02" style="display: none">
+        <div class="card__logo">
+          <img src="images/nXM8V3sTSXuK.jpeg" alt="">
+        </div>
+        <div class="card__satisfacao">
+          <h2>
+            De 0 a 5, como você avaliaria a qualidade dos produtos Vivara que já experimentou?
+          </h2>
+          <div class="card__gradeContainer">
+            <div class="card__grade" id="card__grade1" onclick="toggleCard(this)">
+              <i class="fa-regular fa-star" id="star1"></i>
+            </div>
+            <div class="card__grade" id="card__grade2" onclick="toggleCard(this)">
+              <i class="fa-regular fa-star" id="star2"></i>
+            </div>
+            <div class="card__grade" id="card__grade3" onclick="toggleCard(this)">
+              <i class="fa-regular fa-star" id="star3"></i>
+            </div>
+            <div class="card__grade" id="card__grade4" onclick="toggleCard(this)">
+              <i class="fa-regular fa-star" id="star4"></i>
+            </div>
+            <div class="card__grade" id="card__grade5" onclick="toggleCard(this)">
+              <i class="fa-regular fa-star" id="star5"></i>
+            </div>
+          </div>
+          <div class="card__gradeDescricao">
+            <p>Muito ruim</p>
+            <p>Muito bom</p>
+          </div>
+        </div>
+        <div class="card__resposta">
+          <h2>
+            Como você avaliaria as nossas joias?
+          </h2>
+          <div class="resposta__gradeContainer">
+            <div class="resposta__grade resposta1" onclick="toggleResponse(this, 'resposta1')">
+              <p onclick="scrollToDown()">Ruim, insatisfeita</p>
+            </div>
+            <div class="resposta__grade resposta1" onclick="toggleResponse(this, 'resposta1')">
+              <p onclick="scrollToDown()">Ótima, excelente qualidade</p>
+            </div>
+          </div>
+        </div>
+        <button class="card__enviarResposta" id="enviarResposta" onclick="pergunta02()" disabled="">
+          Enviar avaliação
+        </button>
+      </div>
+
+      <div class="card pergunta03" id="pergunta03" style="display: none">
+        <div class="card__logo">
+          <img src="images/euTvqlRt1sT7.jpeg" alt="">
+        </div>
+        <div class="card__satisfacao">
+          <h2>De 0 a 5. Os produtos da Vivara atenderam às suas expectativas?</h2>
+          <div class="card__gradeContainer">
+            <div class="card__grade" id="card__grade1" onclick="toggleCard(this)">
+              <i class="fa-regular fa-star" id="star1"></i>
+            </div>
+            <div class="card__grade" id="card__grade2" onclick="toggleCard(this)">
+              <i class="fa-regular fa-star" id="star2"></i>
+            </div>
+            <div class="card__grade" id="card__grade3" onclick="toggleCard(this)">
+              <i class="fa-regular fa-star" id="star3"></i>
+            </div>
+            <div class="card__grade" id="card__grade4" onclick="toggleCard(this)">
+              <i class="fa-regular fa-star" id="star4"></i>
+            </div>
+            <div class="card__grade" id="card__grade5" onclick="toggleCard(this)">
+              <i class="fa-regular fa-star" id="star5"></i>
+            </div>
+          </div>
+          <div class="card__gradeDescricao">
+            <p>Muito ruim</p>
+            <p>Muito bom</p>
+          </div>
+        </div>
+        <div class="card__resposta">
+          <h2>Como voce avaliaria o nosso site e atendimento ?</h2>
+          <div class="resposta__gradeContainer">
+            <div class="resposta__grade resposta1" onclick="toggleResponse(this, 'resposta1')">
+              <p onclick="scrollToDown()">Desagradável</p>
+            </div>
+            <div class="resposta__grade resposta1" onclick="toggleResponse(this, 'resposta1')">
+              <p onclick="scrollToDown()">Neutro</p>
+            </div>
+
+            <div class="resposta__grade resposta1" onclick="toggleResponse(this, 'resposta1')">
+              <p onclick="scrollToDown()">Agradável</p>
+            </div>
+
+          </div>
+        </div>
+        <button class="card__enviarResposta" id="enviarResposta" onclick="pergunta03()" disabled="">
+          Enviar avaliação
+        </button>
+      </div>
+
+      <div class="card pergunta04" id="pergunta04" style="display: none">
+        <div class="card__logo">
+          <img src="images/jkKtYzJR5QjR.jpeg" alt="">
+        </div>
+        <div class="card__satisfacao">
+          <h2>De 0 a 5, Quanto você recomendaria os produtos da Vivara para uma amiga ou colega?</h2>
+          <div class="card__gradeContainer">
+            <div class="card__grade" id="card__grade1" onclick="toggleCard(this)">
+              <i class="fa-regular fa-star" id="star1"></i>
+            </div>
+            <div class="card__grade" id="card__grade2" onclick="toggleCard(this)">
+              <i class="fa-regular fa-star" id="star2"></i>
+            </div>
+            <div class="card__grade" id="card__grade3" onclick="toggleCard(this)">
+              <i class="fa-regular fa-star" id="star3"></i>
+            </div>
+            <div class="card__grade" id="card__grade4" onclick="toggleCard(this)">
+              <i class="fa-regular fa-star" id="star4"></i>
+            </div>
+            <div class="card__grade" id="card__grade5" onclick="toggleCard(this)">
+              <i class="fa-regular fa-star" id="star5"></i>
+            </div>
+          </div>
+          <div class="card__gradeDescricao">
+            <p>Muito ruim</p>
+            <p>Muito bom</p>
+          </div>
+        </div>
+        <div class="card__resposta">
+          <h2>O que você espera da Vivara no futuro?</h2>
+          <div class="resposta__gradeContainer">
+            <div class="resposta__grade resposta1" onclick="toggleResponse(this, 'resposta1')">
+              <p onclick="scrollToDown()">Mais exclusividade e qualidade</p>
+            </div>
+            <div class="resposta__grade resposta1" onclick="toggleResponse(this, 'resposta1')">
+              <p onclick="scrollToDown()">Melhor preço </p>
+            </div>
+          </div>
+        </div>
+        <button class="card__enviarResposta" id="enviarResposta" onclick="pergunta04()" disabled="">
+          Enviar avaliação
+        </button>
+      </div> 
+      <div class="card finalizacao" id="finalizacao" style="display: none">
+        <div class="finalizacao__titulo">
+          <h1>PARABÉNS!</h1>
+        </div>
+        <div class="finalizacao__trofeu">
+          <img src="images/rwCpv4i9xDgJ.webp" alt="">
+        </div>
+        <div class="finalizacao__descricao">
+          <p>
+            Parabéns por concluir nossa avaliação da Vivara! Como agradecimento, você ganhou
+            <b>PRODUTOS VIVARA GRATUITOS</b>!  Clique no botão <b>RESGATAR</b> abaixo para
+            escolher e resgatar um produto Vivara.
+          </p>
+          <p>
+            Esperamos que aproveite os produtos e que eles tragam ainda mais beleza e confiança para o seu dia a dia.<br><br>Com carinho, <br>Equipe Vivara.
+          </p>
+        </div>
+        <div class="finalizacao__botao">
+          <a href="../01/index.html"><button><i class="fa-solid fa-gift"></i>  RESGATAR</button></a>
+        </div>
+      </div>
+
+      <button data-bs-toggle="modal" data-bs-target="#modal01" id="popup" style="display: none"></button>
+
+      <div class="modal" tabindex="-1" id="modal01">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="card apresentacao">
+              <h2>
+                🎉 Quiz Exclusivo Dia Das Mães Vivara! 🎉
+              </h2>
+              <p>
+                Bem-vindo(a) ao nosso evento especial! Aqui na Vivara, queremos celebrar a beleza e o estilo com um toque extra de elegância. Junte-se a nós nesta jornada de descobertas e, ao final, escolha e ganhe um produto EXCLUSIVO VIVARA!
+                <strong>Pronto para começar?</strong>
+              </p>
+              <button type="button" data-bs-dismiss="modal">COMEÇAR</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/XWI9aLtdy20F.js"></script>
+    <script src="js/7efLmtMHgIuH.js"></script>
+    <script src="js/cpwUlivsqRZS.js"></script>
+    <script src="js/ioV1NJc9Xzf7.js"></script>
+    <script src="js/XVjRfyPpDI3S.js"></script>
+    <script src="js/MJSHXZWP1K1j.js"></script>
+    <script>
+      $(document).ready(function () {
+        let data = new Date();
+
+        var date = data.getDate();
+        var month = [
+          "Janeiro",
+          "Fevereiro",
+          "Março",
+          "Abril",
+          "Maio",
+          "Junho",
+          "Julho",
+          "Agosto",
+          "Setembro",
+          "Outubro",
+          "Novembro",
+          "Dezembro",
+        ][data.getMonth()];
+        var year = data.getFullYear();
+
+        $("#todayDate").html(`${date} de ${month} de ${year}**`);
+      });
+    </script>
+    <script type="text/javascript" src="js/eY7DkVDurRMt.js"></script>
+
+    <script>
+      var popup = document.getElementById("popup");
+
+      document.addEventListener("DOMContentLoaded", function () {
+        popup.click();
+      });
+    </script>
+    
+    
+    
+
+
+
+
+
+
+</body><!-- Mirrored from c-acaushow.online/quiz/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Mar 2024 04:11:56 GMT --><!-- Mirrored from eudora.semanadosdescontos.com/quiz/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Mar 2024 00:04:21 GMT --></html>

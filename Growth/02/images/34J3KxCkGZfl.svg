@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="18" viewBox="0 0 33 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Forma_2_copiar_2" data-name="Forma 2 copiar 2" class="cls-1" d="M420.339,252.486L405.5,267.2a1.647,1.647,0,0,0,0,2.339,1.673,1.673,0,0,0,2.355,0l13.665-13.549,13.666,13.548a1.677,1.677,0,0,0,2.357,0,1.648,1.648,0,0,0,0-2.34L422.7,252.484A1.692,1.692,0,0,0,420.339,252.486Z" transform="translate(-405.031 -252.031)"/>
+</svg>
